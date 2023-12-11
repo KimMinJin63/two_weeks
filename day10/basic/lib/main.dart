@@ -116,7 +116,7 @@ class MyPainter extends CustomPainter {
     double startAngle = 0;
     double sweepAngle = 180;
 
-    // 호의 시작점
+    // 호의 시작점 
     double startX = centerX + radius * cos(degToRad(startAngle));
     double startY = centerY + radius * sin(degToRad(startAngle));
 
